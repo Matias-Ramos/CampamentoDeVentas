@@ -74,18 +74,9 @@
 
         .productRow {
             margin-top: 1rem;
-            img{
-                width: 100%;
-            }
+
             &:nth-child(2){
                 margin-top: 6rem;
-            }
-            &:nth-child(3) img{
-                width: auto;
-            }
-
-            img{
-                height: 100%;
             }
         }
         

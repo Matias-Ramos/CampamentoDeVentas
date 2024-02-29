@@ -22,9 +22,10 @@ const niceAndEasy = {
 
 
 
-const hiringMTitle = "Apertura a nuevos modelos de contratación."
-const hiringImg = "/products/people.svg"; // free comercial license: https://www.reshot.com/free-vector-illustrations/item/business-people-with-charts-Q4APUFRTWE/
+const hiringMTitle = "Apertura a nuevos modelos de contratación"
+const hiringImg = "/products/people.svg"; // free commercial license: https://www.reshot.com/free-vector-illustrations/item/business-people-with-charts-Q4APUFRTWE/
 const HiringMText = () => (
+    
     <span className="mb-3">
         <i>Formar parte de nuestra comunidad de expertos te dará la posibilidad de "independizarte" de tus vendedores y poder generar competitividad gracias a nuestro sistema compensatorio que incentiva la rotación constante y promueve la meritocracia del equipo al 100%. Olvídate de sueldos fijos, indemnizaciones o vacaciones pagas. Los vendedores de la nueva era comprenden que las posibilidades de crecimiento son exclusivamente su responsabilidad.</i>
     </span>
@@ -34,6 +35,34 @@ const hiringModels = {
     title: hiringMTitle,
     img: hiringImg,
     description: HiringMText,
+}
+
+/********************* */
+/********************* */
+
+
+const leadershipTitle = "Implementación de cultura del alto rendimiento"
+const leadershipImg = "/products/cesar.png"; 
+const LeadershipText = () => (
+    <>
+    <span className="mb-3 d-block">
+        <i>Los mentores son elegidos por resultados reales en el mercado y 100% verificables como requisito excluyente.</i>
+    </span>
+    <span className="mb-3 d-block">
+        <i>De este modo, hemos construido -no solo un programa- sino también el total de nuestra empresa entorno a una cultura de responsabilidad total, máxima productividad y altísimo rendimiento.</i>
+    </span>
+    <span className="mb-3 d-block">
+        <i>Comprendimos que la venta es un juego de técnica, estrategia y mentalidad, razón por la que no dejamos nada librado al azar y
+        abarcamos el rendimiento de un vendedor en su totalidad.</i>
+    </span>
+    
+    </>
+)
+
+const leadership = {
+    title: leadershipTitle,
+    img: leadershipImg,
+    description: LeadershipText,
 }
 
 /********************* */
@@ -59,5 +88,5 @@ const software = {
 /********************* */
 /********************* */
 
-const products = [ niceAndEasy, hiringModels, software ]
+const products = [ niceAndEasy, hiringModels, leadership, software ]
 export default products;
