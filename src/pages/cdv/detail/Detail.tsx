@@ -7,11 +7,11 @@ import Text from './Text';
 // Styling
 const glassmorphism = {
   background: 'rgba(74, 144, 226, 0)',
-  backdropFilter: 'blur(3px)',
+  backdropFilter: 'blur(10px)',
   border: '1px solid rgba(255, 255, 255, 0.18)',
   borderTop: '1px solid rgba(215, 215, 215, 0.6)',
 };
-const rowStyle = 'd-flex justify-content-start gap-lg-2';
+const rowStyle = 'd-flex justify-content-start gap-lg-4';
 const txtStyle = "d-flex flex-column justify-content-center"
 const ctaStyle = 'd-flex align-items-center justify-content-center mt-4'
 

@@ -8,7 +8,7 @@ import animatedTriangles from '/backgrounds/animated_triangles.svg';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../pages/variants';
 // Style
-const rowStyle='d-flex justify-content-center justify-content-lg-between'
+const rowStyle='d-flex flex-column align-items-center'
 
 const NavHeader = () => {
   return (
@@ -25,14 +25,14 @@ const NavHeader = () => {
         <Container>
             <Row className={rowStyle}>
 
-                <Col xs={5} md={2}>
-                    <div className='w-75'>
+                <Col xs={5} md={3} className='d-flex justify-content-center align-items-center'>
+                    <div className='w-75 d-flex justify-content-center align-items-center' >
                         <Logo color="white"/>
                     </div>
                 </Col>
 
-                <Col className='d-flex justify-content-center flex-column' xs={12} md={7} xl={6} xxl={5}>
-                    <h1>Campamento de ventas</h1>
+                <Col className='d-flex justify-content-center flex-column text-center'>
+                    <h1>La clave para tener éxito en tus estrategias de ventas B2B y B2C</h1>
                 </Col>
 
             </Row>

@@ -7,20 +7,21 @@ const cardStyle = `
   h-100
   w-100
   d-flex
-  flex-column
+  flex-row
   justify-content-center
+  align-items-center
   text-center
   p-3
   gap-3
   bg-light
   lightBlueBorder`;
 
-const Card = ({ icon, hightlight, description }: Card_T) => (
+const Card = ({ icon, hightlight, description, color }: Card_T) => (
   <div>
     <div className={cardStyle}>
 
       <div className={iconStyle}>
-        <IconContext.Provider value={{ size: "2.5rem" }}>
+        <IconContext.Provider value={{ size: "2.5rem", color: color  }}>
           {icon}
         </IconContext.Provider>
       </div>

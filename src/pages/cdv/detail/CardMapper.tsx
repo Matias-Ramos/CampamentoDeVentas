@@ -11,6 +11,7 @@ const CardMapper = () => (
           icon={card.icon}
           description={card.description}
           hightlight={card.hightlight}
+          color={card.color}
         />
       )
     )}
