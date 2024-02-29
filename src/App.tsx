@@ -1,21 +1,14 @@
 // Components
+import Footer from './components/footer/Footer'
 import NavHeader from './components/header/NavHeader'
 import Cdv from './pages/cdv/Cdv'
-import FedeSantos from './pages/fede/FedeSantos'
-// Nav
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <NavHeader />
-      <Routes>
-        <Route path="/"               element={<Cdv />} />
-        <Route path="/cdv"            element={<Cdv />} />
-        <Route path="/FedericoSantos" element={<FedeSantos />} />
-      </ Routes>
-    </BrowserRouter>
-  )
-}
+const App = () => (
+  <>
+    <NavHeader />
+    <Cdv />
+    <Footer />
+  </>
+)
 
 export default App

@@ -9,7 +9,7 @@ const Layout = () => (
     <>
         <Col xs={12} lg={6} className={colStyle}>
             {PossitiveBulletPoints.map( bp => (
-                <div>
+                <div key={bp.title}>
                     {bp.icon}
                     <span className='ms-1'>
                         <b>{bp.title}</b>
@@ -20,8 +20,8 @@ const Layout = () => (
         </Col>
 
         <Col xs={12} lg={6} className={colStyle}>
-            {NegativeBulletPoints.map( bp => (
-                <div>
+            {NegativeBulletPoints.map( (bp, i) => (
+                <div key={i}>
                     {bp.icon}
                     <span className='ms-1'>{bp.description}</span>
                 </div>

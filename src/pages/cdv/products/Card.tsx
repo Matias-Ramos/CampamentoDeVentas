@@ -4,6 +4,7 @@ import CtaBtn from "../../../components/ctaBtn/CtaBtn";
 // Style
 const rowStyle = "productRow justify-content-center position-relative";
 const imgColStyle = "d-flex justify-content-center imgCol z-2";
+const imgStyle = "object-fit-cover mw-100";
 const txtColStyle = "d-flex flex-column justify-content-center txtCol z-2";
 const productNameStyle = "text-center text-lg-start fw-bold productName my-2 my-lg-0";
 const bckgTxtStyle= "d-none d-lg-block backgroundText";
@@ -25,7 +26,7 @@ const Card = ({title, img, description}: Props) => {
     <Col xs={12} lg={4} className={imgColStyle}>
         <img
             src={img}
-            className="object-fit-cover"
+            className={imgStyle}
             alt={`Imagen del Campamento de ventas`}
         />
     </Col>
