@@ -1,12 +1,12 @@
 // Data
 import testimonialList from "./testimonialList";
-// Components
+// BTS
 import { Col, Container, Row } from 'react-bootstrap';
+// Components
 import Accordion from 'react-bootstrap/Accordion';
 import CardMapper from './CardMapper';
 import Header from './Header';
-import Logo from '../Logo';
-
+import Logo from '../../../components/Logo';
 // Styling
 const h2rowStyling = 'd-flex justify-content-center'
 const h2containerStyling = 'd-flex align-items-end justify-content-between mb-3 h2col position-relative';

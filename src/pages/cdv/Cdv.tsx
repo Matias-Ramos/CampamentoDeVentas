@@ -2,7 +2,7 @@ import Detail from "./detail/Detail"
 import RelevantData from "./relevantData/RelevantData"
 import Products from "./products/Products"
 import Purpose from "./purpose/Purpose"
-import TestimonialsCdv from "./testimonials/TestimonialsCdv"
+import Testimonials from "./testimonials/Testimonials"
 import Warranty from "./warranty/Warranty"
 
 const Cdv = () => (
@@ -14,7 +14,7 @@ const Cdv = () => (
     <RelevantData />
     <Products />
     <Warranty />
-    <TestimonialsCdv />
+    <Testimonials />
   </main>
 )
 export default Cdv
