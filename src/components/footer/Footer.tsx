@@ -13,7 +13,7 @@ const Footer = () => (
       <Row className='py-4'>
 
         <Col xs={12} lg={6} className={colStyle}>
-          {/* some component */}
+          <span>Todos los derechos reservados</span>
         </Col>
 
         <Col xs={12} lg={6} className={iconsCtStyle}>

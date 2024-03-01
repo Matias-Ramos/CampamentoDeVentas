@@ -1,6 +1,13 @@
 #signatureSection {
     background-color: #343a40;
 
+    $font-color: #9FA8B2;
+    color: $font-color;
+
+    a {
+        color: $font-color;
+    }
+
     #externalCredits {
         ul {
             padding: 0;
@@ -23,11 +30,6 @@
     #signatureSection {
         font-size: .8rem;
         padding: 0rem 1rem 2px 1rem;
-        color: white;
-
-        a {
-            color: white;
-        }
     }
 }
 
@@ -44,12 +46,6 @@
 
             .row {
                 flex-direction: column;
-                $font-color: white;
-                color: $font-color;
-
-                a {
-                    color: $font-color;
-                }
 
                 #externalCredits {
                     justify-content: flex-end;
