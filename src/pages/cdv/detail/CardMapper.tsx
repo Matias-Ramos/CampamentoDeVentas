@@ -1,7 +1,7 @@
 import Card from "./Card"
 import { cardList } from "./cardList"
 // Styles
-const containerStyle = "d-flex align-items-center gap-4 my-3 flex-column flex-lg-row";
+const containerStyle = "d-flex align-items-center gap-4 my-3 flex-column flex-lg-row h-100";
 
 const CardMapper = () => (
   <div className={containerStyle}>

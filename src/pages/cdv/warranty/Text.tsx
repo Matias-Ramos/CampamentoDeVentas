@@ -3,6 +3,7 @@ const paragraphStyle = 'd-block mb-3'
 
 const Text = () => (
     <>
+        <h2 className="mb-3">Es apto para mi empresa?</h2>
         <span className={paragraphStyle}>
             No podemos prometer resultados a todo el mundo. El campamento de ventas, es para cualquiera, -pero no cualquiera, es para el campamento de ventas-
         </span>

@@ -17,7 +17,6 @@ const cardStyle = `
   lightBlueBorder`;
 
 const Card = ({ icon, hightlight, description, color }: Card_T) => (
-  <div>
     <div className={cardStyle}>
 
       <div className={iconStyle}>
@@ -31,7 +30,6 @@ const Card = ({ icon, hightlight, description, color }: Card_T) => (
       </span>
 
     </div>
-  </div>
 
 )
 export default Card

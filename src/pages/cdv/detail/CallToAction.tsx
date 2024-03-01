@@ -4,12 +4,12 @@ import { Col, Row } from "react-bootstrap"
 import Chevron from "../../../components/chevron/Chevron";
 import { Button } from "@mui/material";
 // Styles
-const rowStyle = "align-items-center py-4 py-lg-0 bg-light w-100 blueBorder"
+const rowStyle = "align-items-center py-4 py-lg-0 mt-4 bg-light w-100 blueBorder"
 const spanStyle = "d-block text-center"
 const ctaStyle = "d-flex justify-content-center"
 
 const CallToAction = () => (
-    <Row className={rowStyle}>
+    <Row className={rowStyle} id="detailCtaContainer">
 
         <Col xs={12} lg={5} >
             <span className={spanStyle}>

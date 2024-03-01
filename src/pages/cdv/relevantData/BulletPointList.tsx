@@ -41,7 +41,7 @@ export const NegativeBulletPoints = [
         <IconContext.Provider value={{ color: "red" }}>
             <IoMdClose />
         </IconContext.Provider>,
-        description: 'No vas a necesitar libros de refierzo, imprimir cientos de hojas, ni salir a buscar "ese dato que falta" para completar la rueda y hacerla girar.',
+        description: 'No vas a necesitar libros de refuerzo, imprimir cientos de hojas, ni salir a buscar "ese dato que falta" para completar la rueda y hacerla girar.',
     },
     {
         icon: 

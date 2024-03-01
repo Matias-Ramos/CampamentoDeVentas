@@ -22,7 +22,7 @@ export const cardList: Card_T[] = [
     {
         icon: <FaCheckCircle />,
         hightlight: "Fideliza un equipo, ",
-        description: "disminuye la rotación y ahorra tiempo ganando mas dinero.",
+        description: "disminuye la rotación y ahorra tiempo ganando mas dinero asd asd asd asd sa dasd asd asd as dasd sad .",
         color: "#031245",
     },
     {
