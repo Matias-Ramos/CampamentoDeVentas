@@ -3,10 +3,10 @@ import Card from 'react-bootstrap/Card';
 import { IoIosArrowDown } from "react-icons/io";
 import CustomToggle from './CustomToggle';
 import Carousel from './Carousel';
-import { Testimonial_T } from './testimonialType';
+import { Testimonial_T } from '../testimonialType';
 // Animation
 import { motion } from 'framer-motion';
-import { staggerFadeIn } from '../../variants';
+import { staggerFadeIn } from '../../../variants';
 // Styling
 const entityStyling = { display: "block", width: "100%", marginLeft: "25px" }
 const cardStyling = { backgroundColor: "rgba(255, 255, 255,0.1)", textShadow: "2px 2px 4px white", marginBottom: "1rem" }

@@ -2,7 +2,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 // Components
 import Logo from '../Logo';
-import background from '/backgrounds/blue_bckg.jpg';
+import background from '/backgrounds/blue_bckg_2.jpg';
 import animatedTriangles from '/backgrounds/animated_triangles.svg';
 // Animation
 import { motion } from 'framer-motion';

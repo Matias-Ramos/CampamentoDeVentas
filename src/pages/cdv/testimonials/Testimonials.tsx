@@ -4,7 +4,7 @@ import testimonialList from "./testimonialList";
 import { Col, Container, Row } from 'react-bootstrap';
 // Components
 import Accordion from 'react-bootstrap/Accordion';
-import CardMapper from './CardMapper';
+import CardMapper from './accordion/CardMapper';
 import Header from './Header';
 import Logo from '../../../components/Logo';
 // Styling

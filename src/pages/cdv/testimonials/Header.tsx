@@ -21,7 +21,9 @@ const Header = () => (
             className={animationCtStyling}
         >
 
-            <h2 className={h2style}> Testimonios </h2>       
+            <h2 className={h2style}>
+                Testimonios
+            </h2>       
             <IconContext.Provider value={{ size: "2rem", color: "white", className: "mb-1" }}>
                 <BsChatDotsFill />
             </IconContext.Provider>

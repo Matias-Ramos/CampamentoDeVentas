@@ -1,4 +1,4 @@
-import React from 'react';
+import {ReactNode} from 'react';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 
 const cardCapStyles = {
@@ -9,7 +9,7 @@ const cardCapStyles = {
     cursor: 'pointer'
 };
 
-const CustomToggle = ({ children, eventKey }: {children: React.ReactNode, eventKey: number}) => {
+const CustomToggle = ({ children, eventKey }: {children: ReactNode, eventKey: number}) => {
     
     const decoratedOnClick = useAccordionButton(eventKey.toString());
     
