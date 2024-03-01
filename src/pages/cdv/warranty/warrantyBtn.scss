@@ -1,0 +1,37 @@
+#warranty button {
+
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(34, 87, 122), rgb(128, 237, 153)) 0% 0% / 300%;
+    border-radius: 30px;
+    border: none;
+    height: 3em;
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 13.5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    &:hover {
+        transform: scale(1.015);
+        transition-duration: .1s;
+    }
+
+    &:active {
+        transform: scale(0.990);
+        transition-duration: .1s;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #warranty button{
+        width: 100%
+    }
+}
+@media only screen and (min-width: 992px) {
+    #warranty button{
+        width: 25%;
+    }
+}
