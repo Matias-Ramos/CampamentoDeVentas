@@ -7,10 +7,10 @@ import Warranty from "./warranty/Warranty"
 
 const Cdv = () => (
   <main>
-    <div id="firstBackground">
+    <div id="parallax">
       <Purpose />
-      <Detail />
     </div>
+      <Detail />
     <RelevantData />
     <Products />
     <Warranty />

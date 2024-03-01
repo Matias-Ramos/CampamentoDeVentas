@@ -1,4 +1,4 @@
-#firstBackground{
+#parallax{
     background-image: url("/backgrounds/subtlePrism.svg");
     background-attachment: fixed;
     background-position: center;
@@ -10,7 +10,6 @@
         font-size: calc(1rem + .9vw);
         margin-bottom: 0.75rem;
     }
-    
 }
 .blueBackg_base{
     z-index: 1;
