@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import CardMapper from './CardMapper';
 import Header from './Header';
 import Logo from '../Logo';
-import { Testimonial_T } from '../../classes/testimonialType';
+import { Testimonial_T } from './testimonialType';
 
 // Styling
 const h2rowStyling = 'd-flex justify-content-center'

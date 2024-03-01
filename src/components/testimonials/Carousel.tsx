@@ -1,5 +1,5 @@
 import CarouselBts from 'react-bootstrap/Carousel';
-import { Testimonial_T } from '../../classes/testimonialType'
+import { Testimonial_T } from './testimonialType'
 // Style
 import useMediaQuery from '@mui/material/useMediaQuery';
 import classNames from "classnames";

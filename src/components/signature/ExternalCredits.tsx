@@ -7,7 +7,7 @@ const ExternalCredits = () => (
             Icon credits:
             <ul>
                 <li>
-                    <a className="px-1 " href={freepikLink} target="_blank" rel="noopener noreferrer">
+                    <a className="px-1" href={freepikLink} target="_blank" rel="noopener noreferrer">
                         freepik
                     </a>
                 </li>

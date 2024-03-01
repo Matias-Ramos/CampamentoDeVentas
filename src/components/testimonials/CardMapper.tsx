@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import { IoIosArrowDown } from "react-icons/io";
 import CustomToggle from './CustomToggle';
 import Carousel from './Carousel';
-import { Testimonial_T } from '../../classes/testimonialType';
+import { Testimonial_T } from './testimonialType';
 // Animation
 import { motion } from 'framer-motion';
 import { staggerFadeIn } from '../../pages/variants';
