@@ -1,7 +1,7 @@
 // Components
-import Footer from './components/footer/Footer'
-import NavHeader from './components/header/NavHeader'
-import Signature from './components/signature/Signature'
+import Footer from './pages/cdv/footer/Footer'
+import NavHeader from './pages/cdv/header/NavHeader'
+import Signature from './pages/cdv/signature/Signature'
 import Cdv from './pages/cdv/Cdv'
 
 const App = () => (

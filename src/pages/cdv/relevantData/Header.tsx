@@ -2,7 +2,7 @@
 import { Col } from "react-bootstrap";
 // Animation
 import { motion } from 'framer-motion';
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../components/variants";
 // Style
 const h2style = "w-100 z-2 d-block position-relative";
 

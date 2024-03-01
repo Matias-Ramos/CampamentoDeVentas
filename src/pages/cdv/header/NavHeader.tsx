@@ -1,12 +1,12 @@
 // BTS
 import { Container, Row, Col } from 'react-bootstrap';
 // Components
-import Logo from '../Logo';
+import Logo from '../../../components/Logo';
 import background from '/backgrounds/blue_bckg_2.jpg';
 import animatedTriangles from '/backgrounds/animated_triangles.svg';
 // Animation
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../components/variants';
+import { fadeIn } from '../../../components/variants';
 // Style
 const rowStyle = 'd-flex flex-column align-items-center'
 const colStyle = 'd-flex justify-content-center'

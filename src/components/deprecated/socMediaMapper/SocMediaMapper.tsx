@@ -6,7 +6,7 @@ const containerStyle = 'd-flex flex-row justify-content-evenly my-3 socMediaCtr'
 import { Member_T } from "./MembersType";
 // Animation
 import { motion } from 'framer-motion'
-import { staggerFadeIn } from "../../pages/variants";
+import { staggerFadeIn } from "../../variants";
 
 const SocMediaMapper = ({ member }: { member: Member_T }) => (
   <motion.div

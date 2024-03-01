@@ -6,7 +6,7 @@ import Carousel from './Carousel';
 import { Testimonial_T } from '../testimonialType';
 // Animation
 import { motion } from 'framer-motion';
-import { staggerFadeIn } from '../../../variants';
+import { staggerFadeIn } from '../../../../components/variants';
 // Styling
 const entityStyling = { display: "block", width: "100%", marginLeft: "25px" }
 const cardStyling = { backgroundColor: "rgba(255, 255, 255,0.1)", textShadow: "2px 2px 4px white", marginBottom: "1rem" }

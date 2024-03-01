@@ -2,7 +2,7 @@
 import Col from 'react-bootstrap/Col';
 import { PossitiveBulletPoints, NegativeBulletPoints } from './BulletPointList';
 // Animation
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../components/variants';
 import { motion } from 'framer-motion';
 // Style
 const colStyle = "d-flex flex-column gap-4 justify-content-center bulletCol";

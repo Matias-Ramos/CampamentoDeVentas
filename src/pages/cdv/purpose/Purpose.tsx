@@ -7,7 +7,7 @@ import Logo from '../../../components/Logo';
 import Text from './Text';
 // Animation
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../components/variants';
 const logoMobileVariant = {
     hidden: { opacity: 0 },
     show: {
