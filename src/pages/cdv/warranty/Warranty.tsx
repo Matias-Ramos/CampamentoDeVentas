@@ -1,5 +1,4 @@
 // Components
-import CtaBtn from '../../../components/ctaBtn/CtaBtn'
 import Header from './Header'
 import Text from './Text'
 // BTS
@@ -19,7 +18,7 @@ const detailColStyle = 'd-flex flex-column align-items-center justify-content-en
 const btnColStyle = 'd-flex justify-content-center mt-4'
 
 const Warranty = () => (
-    <section style={sectionStyle} id="warranty">
+    <section style={sectionStyle} className='mt-lg-5' id="warranty">
         <Container>
             <Row>
 
