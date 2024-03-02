@@ -26,32 +26,34 @@ const Purpose = () => {
     const isMobile = useMediaQuery('(max-width:991px)');
 
     return (
-        <section id="purpose" className={sectionStyle}>
-            <motion.div
-                variants={fadeIn("up")}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true }}
-                id="purposeBckg"
-            >
-                <Container>
-                    <Row>
-                        <Col xs={12} lg={8} className={txtStyle}>
-                            <Text />
-                        </Col>
-                        <Col xs={6} sm={3} lg={4} className={logoStyle}>
-                            {isMobile ?
-                                <motion.div variants={logoMobileVariant} viewport={{ once: true }}>
+        <div id="outerParallax">
+            <section id="purpose" className={sectionStyle}>
+                <motion.div
+                    variants={fadeIn("up")}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true }}
+                    id="purposeBckg"
+                >
+                    <Container>
+                        <Row>
+                            <Col xs={12} lg={8} className={txtStyle}>
+                                <Text />
+                            </Col>
+                            <Col xs={6} sm={3} lg={4} className={logoStyle}>
+                                {isMobile ?
+                                    <motion.div variants={logoMobileVariant} viewport={{ once: true }}>
+                                        <Logo color="blue" />
+                                    </motion.div>
+                                    :
                                     <Logo color="blue" />
-                                </motion.div>
-                                :
-                                <Logo color="blue" />
-                            }
-                        </Col>
-                    </Row>
-                </Container>
-            </motion.div>
-        </section>
+                                }
+                            </Col>
+                        </Row>
+                    </Container>
+                </motion.div>
+            </section>
+        </div>
     )
 }
 

@@ -4,9 +4,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html{
+html {
   overflow-x: hidden;
 }
+
 body {
   font-size: 1.15rem;
   line-height: 1.7;
@@ -14,20 +15,25 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-main{
+
+main {
   font-family: 'Rubik', sans-serif;
 }
 
-h1{
-  margin-bottom: 0!important;
+h1 {
+  margin-bottom: 0 !important;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: calc(1.725rem + .9vw);
   font-weight: normal;
 }
 
-h1, h2, .h2, h3  {
+h1,
+h2,
+.h2,
+h3 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
 }
@@ -36,17 +42,7 @@ section {
   padding: 6rem 0px;
 }
 
-
-main{
+main {
   position: relative;
   z-index: 2;
 }
-
-
-/* section:nth-child(odd){
-  background-color: #f8f9fa;
-}
-section:nth-child(even){
-  background-color: #e9ecef;
-}
- */
