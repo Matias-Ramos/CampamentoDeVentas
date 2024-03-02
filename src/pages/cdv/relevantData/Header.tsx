@@ -5,9 +5,10 @@ import { motion } from 'framer-motion';
 import { fadeIn } from "../../../components/variants";
 // Style
 const h2style = "w-100 z-2 d-block position-relative";
+const colStyle = "position-relative h2col"
 
 const Header = () => (
-    <Col className="h2col position-relative">
+    <Col className={colStyle}>
         <div className="blueBackg"></div>
         <motion.h2
             variants={fadeIn("left")}

@@ -16,11 +16,11 @@ const cardStyle = `
   bg-light
   lightBlueBorder`;
 
-const Card = ({ icon, hightlight, description, color }: Card_T) => (
+const Card = ({ icon, hightlight, description }: Card_T) => (
     <div className={cardStyle}>
 
       <div className={iconStyle}>
-        <IconContext.Provider value={{ size: "2.5rem", color: color  }}>
+        <IconContext.Provider value={{ size: "2.5rem", color: "#031245"  }}>
           {icon}
         </IconContext.Provider>
       </div>

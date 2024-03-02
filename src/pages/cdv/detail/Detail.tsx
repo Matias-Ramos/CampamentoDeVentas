@@ -14,10 +14,9 @@ const rowStyle = 'd-flex justify-content-start gap-lg-4';
 const txtStyle = "d-flex flex-column justify-content-center"
 const ctaStyle = 'd-flex align-items-center justify-content-center mt-4'
 
-const Detail = () => {
-  return (
-    <section id="detail">
-      <div style={glassmorphism}>
+const Detail = () => (
+  <section id="detail">
+    <div style={glassmorphism}>
       <Container >
         <Row className={rowStyle}>
 
@@ -35,8 +34,8 @@ const Detail = () => {
 
         </Row>
       </Container>
-      </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+)
+
 export default Detail

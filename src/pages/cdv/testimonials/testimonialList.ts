@@ -1,4 +1,4 @@
-import { Testimonial_T } from "../../../classes/testimonialType"
+import { Testimonial_T } from "./testimonialType"
 
 const testimonialOne = new Testimonial_T(
   'Bienes raices',

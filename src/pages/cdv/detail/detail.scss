@@ -1,36 +1,43 @@
-@import "../../../styles/colors.scss";
 $border_radius: 20px;
-#detail{
+$blue: #4254bc;
+
+#detail {
     background-image: url("/backgrounds/white_bckg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     border-bottom: 1px solid rgba(215, 215, 215, 0.6);
 }
+
 .whiteBorder {
     border: 4px solid rgba(0, 0, 0, 0);
     border-radius: $border_radius;
 }
+
 .lightBlueBorder {
     border: 2px solid white;
     border-radius: $border_radius;
     border-style: outset;
 }
+
 .blueBorder {
-    border: 4px solid $blue_logo;
+    border: 4px solid $blue;
     border-radius: $border_radius;
     border-style: outset;
 }
-#detailCtaContainer{
+
+#detailCtaContainer {
     border-radius: 6px; // overwrites
 }
-@media only screen and (max-width:991px){
-    #detail{
-        padding-top: 8.5rem;
+
+@media only screen and (max-width:991px) {
+    #detail {
+        padding-top: 6rem;
     }
 }
-@media only screen and (min-width:992px){
-    #detail{
+
+@media only screen and (min-width:992px) {
+    #detail {
         padding: 8rem 0px 5rem 0px;
     }
 }

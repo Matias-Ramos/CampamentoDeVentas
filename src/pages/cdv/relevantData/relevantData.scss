@@ -1,9 +1,8 @@
-@import '../../../styles/colors.scss';
 @import '../sharedStyles.scss';
 
 #relevantData {
+    .h2col {
 
-    .h2col{
         h2 {
             color: white;
             text-shadow: 1px 1px 2px black;
@@ -34,7 +33,7 @@
         position: relative;
         padding: 6rem 0px 1rem 0px;
 
-        .h2col{
+        .h2col {
             .blueBackg {
                 clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
                 height: calc(1.8rem + .9vw);
@@ -51,7 +50,7 @@
 @media only screen and (max-width: 991px) {
     #relevantData {
         padding-bottom: 0;
-        
+
         .h2col {
             position: relative;
             padding: 1rem 0px;
@@ -65,7 +64,7 @@
         }
 
         // possitive ones
-        .bulletCol:first-child{
+        .bulletCol:first-child {
             margin-bottom: 2rem;
         }
     }

@@ -2,12 +2,12 @@
 
 #products {
 
-    .h2col{
+    .h2col {
         h2 {
             color: white;
             text-shadow: 1px 1px 2px black;
         }
-    
+
         .blueBackg {
             @extend .blueBackg_base;
         }
@@ -19,7 +19,7 @@
         font-size: 1.5rem;
     }
 
-    .productRow{
+    .productRow {
         overflow-x: hidden;
     }
 
@@ -50,12 +50,13 @@
         position: relative;
         padding: 2rem 0px 5rem 0px;
 
-        .h2col{
+        .h2col {
             .blueBackg {
                 clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
                 height: calc(1.8rem + .9vw);
             }
-            h2{
+
+            h2 {
                 margin-left: 2rem;
             }
         }
@@ -75,11 +76,11 @@
         .productRow {
             margin-top: 1rem;
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 margin-top: 4rem;
             }
         }
-        
+
 
         .productRow:nth-child(odd) {
 

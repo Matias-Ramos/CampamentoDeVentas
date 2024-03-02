@@ -5,16 +5,14 @@ const containerStyle = "d-flex align-items-center gap-4 my-3 flex-column flex-lg
 
 const CardMapper = () => (
   <div className={containerStyle}>
-    { cardList.map((card, index) =>  (
-        <Card
-          key={index}
-          icon={card.icon}
-          description={card.description}
-          hightlight={card.hightlight}
-          color={card.color}
-        />
-      )
-    )}
+    {cardList.map((card, index) => (
+      <Card
+        key={index}
+        icon={card.icon}
+        description={card.description}
+        hightlight={card.hightlight}
+      />
+    ))}
   </div>
 )
 

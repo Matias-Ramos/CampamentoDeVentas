@@ -7,7 +7,7 @@ import Warranty from "./warranty/Warranty"
 
 const Cdv = () => (
   <main>
-    <div id="parallax">
+    <div id="outerParallax">
       <Purpose />
     </div>
       <Detail />

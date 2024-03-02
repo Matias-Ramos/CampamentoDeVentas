@@ -1,4 +1,17 @@
+#outerParallax {
+    background-image: url("/backgrounds/subtlePrism.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px -14px 7px -9px rgba(50, 50, 50, 0.3);
+    border-top: 1px solid lightgrey;
 
+    h2 {
+        font-size: calc(1rem + .9vw);
+        margin-bottom: 0.75rem;
+    }
+}
 
 @media only screen and (max-width: 991px) {
     #purpose {
@@ -10,8 +23,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         border-bottom: 1px solid #dee2e6;
-        padding: 7rem 0px 8rem 0px;
-        
+        padding: 7rem 0px 6rem 0px;
+
         .purposeLogo {
             position: absolute;
             top: 100%;

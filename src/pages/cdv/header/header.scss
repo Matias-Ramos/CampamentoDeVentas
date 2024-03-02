@@ -3,6 +3,7 @@ header {
     color: #fafafa;
     position: relative;
     z-index: 1;
+
     h1 {
         font-family: "Fira Sans", sans-serif;
         font-weight: 500;
@@ -24,7 +25,7 @@ header {
         z-index: 1;
     }
 
-    #animatedTriangles{
+    #animatedTriangles {
         position: absolute;
         top: 0;
         left: 0;
@@ -43,7 +44,7 @@ header {
             height: 100%;
         }
 
-        #animatedTriangles{
+        #animatedTriangles {
             height: 100%;
             max-width: 100%;
         }
@@ -55,16 +56,18 @@ header {
             &:first-child {
                 margin-top: 0.25rem;
 
-            }   
+            }
         }
     }
 }
+
 @media only screen and (min-width: 992px) {
-    header{
-        .logo{
+    header {
+        .logo {
             width: 85%;
         }
-        #animatedTriangles{
+
+        #animatedTriangles {
             height: auto;
             width: 100%;
         }
