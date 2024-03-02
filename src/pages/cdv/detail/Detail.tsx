@@ -10,7 +10,7 @@ const glassmorphism = {
   backdropFilter: 'blur(7px)',
   border: '1px solid rgba(255, 255, 255, 0.18)',
 };
-const rowStyle = 'd-flex justify-content-start gap-lg-4';
+const rowStyle = 'd-flex justify-content-center gap-lg-4';
 const txtStyle = "d-flex flex-column justify-content-center"
 const ctaStyle = 'd-flex align-items-center justify-content-center mt-4'
 
