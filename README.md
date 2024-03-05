@@ -18,7 +18,7 @@ Front-end made with React TS.
 The site is hosted in Netlify with automatic redeploy from GitHub.
 
 ### Link
-https://www.santosclosers.com
+https://www.santosclosers-cdv.com
 
 ## Code
 
