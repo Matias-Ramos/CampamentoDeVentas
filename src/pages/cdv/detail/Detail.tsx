@@ -7,7 +7,7 @@ import Text from './Text';
 // Styling
 const glassmorphism = {
   background: 'rgba(74, 144, 226, 0)',
-  backdropFilter: 'blur(7px)',
+  backdropFilter: 'blur(1px)',
   border: '1px solid rgba(255, 255, 255, 0.18)',
 };
 const rowStyle = 'd-flex justify-content-center gap-lg-4';
@@ -20,7 +20,7 @@ const Detail = () => (
       <Container >
         <Row className={rowStyle}>
 
-          <Col xs={12} className={txtStyle}>
+          <Col xs={12} xxl={9} className={txtStyle}>
             <Text />
           </Col>
 

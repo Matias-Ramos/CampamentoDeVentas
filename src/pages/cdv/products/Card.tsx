@@ -32,7 +32,7 @@ const Card = ({title, img, description}: Props) => {
     </Col>
 
     <Col xs={12} lg={6} className={txtColStyle}>
-        <span className={productNameStyle}>
+        <span className={productNameStyle} style={{textWrap: "pretty"}}>
           {title}
         </span>
 
@@ -40,7 +40,7 @@ const Card = ({title, img, description}: Props) => {
             {description()}
         </div>
 
-        <CtaBtn text="Hablemos!" handleClick={()=>{}} />
+        <CtaBtn text="Mas información" />
     </Col>
     <Col className="hrCol" xs={12}>
         <hr />

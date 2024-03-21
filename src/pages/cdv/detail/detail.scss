@@ -32,12 +32,17 @@ $blue: #4254bc;
 
 @media only screen and (max-width:991px) {
     #detail {
-        padding-top: 6rem;
+        padding-top: 9rem;
+        padding-bottom: 4rem;
     }
 }
 
 @media only screen and (min-width:992px) {
     #detail {
         padding: 8rem 0px 5rem 0px;
+
+        .ctaBtnContainer{
+            width: 65%;
+        }
     }
 }
