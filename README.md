@@ -20,6 +20,14 @@ The site is hosted in Netlify with automatic redeploy from GitHub.
 ### Link
 https://www.santosclosers-cdv.com
 
+### Fonts
+- H1: Fira Sans, fw-500 
+- H2: Roboto slab, fw-400
+- General text: Rubik, fw-400
+- Btns: Roboto, fw-500 
+- Others: Montserrat, fw-700 
+
+
 ## Code
 
 ### Main libraries/frameworks
@@ -32,3 +40,4 @@ Clone the repository. Run "npm install". Run "npm run dev" on the IDE terminal. 
 
 ### Project initialization
 The project was initialized with Vite.
+
